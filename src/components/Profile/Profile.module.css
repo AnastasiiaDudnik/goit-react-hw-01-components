@@ -1,0 +1,30 @@
+.description {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.tag {
+  color: gray;
+}
+
+.location {
+  color: gray;
+}
+
+.stats {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
