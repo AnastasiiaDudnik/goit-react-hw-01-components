@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import { List } from './StatisticList.styled';
+import { List, Item } from './StatisticList.styled';
 
 export const StatisticList = ({ stats }) => {
   return (
     <List>
       {stats.map(({ id, label, percentage }) => (
-        <li key={id} style={{ backgroundColor: getRandomHexColor() }}>
+        <Item key={id} style={{ backgroundColor: getRandomHexColor() }}>
           <span>{label}</span>
           <span>{percentage}%</span>
-        </li>
+        </Item>
       ))}
     </List>
   );
