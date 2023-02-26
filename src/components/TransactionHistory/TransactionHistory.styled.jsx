@@ -21,7 +21,7 @@ export const Td = styled.td`
 `;
 
 export const Tr = styled.tr`
-  :nth-child(even) {
+  :nth-of-type(even) {
     background-color: lightgrey;
   }
 `;
