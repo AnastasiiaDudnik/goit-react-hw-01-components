@@ -23,7 +23,7 @@
   gap: 10px;
 }
 
-li {
+ul.stats > li {
   display: flex;
   flex-direction: column;
   gap: 10px;
