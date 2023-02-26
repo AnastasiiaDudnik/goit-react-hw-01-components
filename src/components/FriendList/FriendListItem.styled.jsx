@@ -6,3 +6,8 @@ export const Online = styled.span`
   height: 10px;
   border-radius: 50%;
 `;
+
+export const Friend = styled.li`
+  display: flex;
+  gap: 10px;
+`;

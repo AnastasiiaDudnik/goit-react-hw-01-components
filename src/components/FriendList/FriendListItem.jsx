@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { Online } from './FriendListItem.styled';
+import { Online, Friend } from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li>
+    <Friend>
       {isOnline ? (
         <Online style={{ backgroundColor: 'green' }}></Online>
       ) : (
@@ -12,7 +12,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
 
       <img src={avatar} alt={avatar} width="48" />
       <p>{name}</p>
-    </li>
+    </Friend>
   );
 };
 
